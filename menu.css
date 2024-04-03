@@ -1,0 +1,56 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling for navigation bar */
+nav {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 50px; /* Adjust height as needed */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Styling for menu items */
+.menu-item {
+  text-align: center;
+  margin: 20px;
+}
+
+.menu-item img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.menu-item h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.menu-item p {
+  margin-top: 5px;
+  font-size: 16px;
+}/*# sourceMappingURL=menu.css.map */
